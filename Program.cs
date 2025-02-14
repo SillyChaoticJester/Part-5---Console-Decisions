@@ -20,6 +20,22 @@
             // If Statements only work if a condition is true
             // Else If Statements only work if the previous If Statement was false, but its own condition was true
             // Else Statements only work if none of the following conditions were true
+
+            int grade, guessNum, guessCheck;
+
+            Console.WriteLine("What was your grade for that project you did?");
+            grade = Convert.ToInt32(Console.ReadLine());
+            if (grade >= 80)
+            {
+                Console.WriteLine("Good Job!");
+            }
+            Console.WriteLine("Guess what number I am thinking of?");
+            guessNum = Convert.ToInt32(Console.ReadLine());
+            if (guessNum == 12)
+            {
+                Console.WriteLine("You've guessed it!");
+            }
+
         }
     }
 }
